@@ -1,0 +1,44 @@
+.pages {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 98;
+}
+
+.page-body {
+    border: 3px white solid;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    margin-right: 15%;
+    opacity: 0;
+    background-color: rgba(0,0,0,.5);
+    transition: linear 4s opacity 1s;
+    -moz-transition: linear 4s opacity 1s;
+    -webkit-transition: linear 4s opacity 1s;
+    &.entering {
+        animation: Fade 6s 1;
+    }
+
+    &.entered {
+        opacity: 1;
+    }
+}
+
+.page-content {
+    overflow: hidden;
+    padding: 0;
+}
+
+.logo-name {
+    width: 50%;
+    height: 65%;
+    margin: auto 10% auto 17%;
+    opacity: 0.9;
+}
+
+.home-page {
+    border:none;
+    background-color: rgba(0,0,0,0);
+
+}

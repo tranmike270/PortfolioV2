@@ -1,0 +1,13 @@
+.hr-white-blur {
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.hr-center {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}

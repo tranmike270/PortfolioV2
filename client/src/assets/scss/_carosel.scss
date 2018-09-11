@@ -1,0 +1,227 @@
+.carosel-arrows{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    background-color: transparent;
+
+}
+
+.arrow-container {
+    padding: 0px;
+}
+.carosel-arrow {
+    z-index: 5;
+}
+.arrow-g {
+    fill: black;
+    transition: linear 0.5s all ;
+    -moz-transition: linear 0.5s all ;
+    -webkit-transition: linear 0.5s all ;
+}
+.carosel-arrow:hover .arrows .arrow-g{
+    fill: white;
+}
+
+.left{    
+    transform: rotate(180deg);
+    
+}
+.carosel-cards {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: min-content;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    overflow: visible;
+    margin: -15px;
+}
+
+.carosel-card {
+    position: relative;
+    height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
+    width: -webkit-fill-available;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    overflow: visible;
+    transition: linear 1.5s all ;
+    -moz-transition: linear 1.5s all ;
+    -webkit-transition: linear 1.5s all ;
+    will-change: transform;
+    max-width: 0%;
+    &.exiting {
+        max-width: 0%;
+    }
+
+    &.entered {
+        max-width: 33.33333333%;
+    }
+}
+
+.cards {
+    background-color: #ffffff3d;
+    height: 450px;
+    max-height: 450px;
+    margin: auto;
+    transform: scale(0) translate(0%, -100%);
+    opacity: 0;
+    transition: linear 1.5s all;
+    -moz-transition: linear 1.5s all ;
+    -webkit-transition: linear 1.5s all ;
+    will-change: transform;
+    overflow: visible;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.cards .connect-svg{
+    width: 75%;
+    margin: auto;
+    stroke: #ffffff1f;
+    fill: #000000e6;
+}
+
+.carosel-text {
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    overflow: visible;
+    white-space: pre-wrap;
+    transition: linear 1.5s all;
+    -moz-transition: linear 1.5s all ;
+    -webkit-transition: linear 1.5s all;
+    &.title {
+        font-family: 'Lora', serif;
+        font-size: 0px;
+        margin: 0px 0px;
+        border-left: 5px solid #0000003b;
+        border-right: 5px solid #0000003b;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 30%;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.64);
+    }
+
+    &.text {
+        font-family: 'Exo', sans-serif;
+        font-size: 0px;
+        margin: 0px 0px;
+    }
+
+    &.link {
+        font-family: 'Exo', sans-serif;
+        font-size: 0px;
+        margin: 0px 0px;
+    }
+
+
+}
+
+// .carosel-card.card-exit-left{
+//     max-width: 0%;
+// }
+
+.card-left .cards {
+    opacity: .5;
+    transform: scale(.6) translate(0%,-25%);
+
+    .carosel-text {
+        &.title {
+            font-size: 40px;
+            margin: 12px 0px;
+        }
+        &.text {
+            font-size: 30px;
+            margin: -5px 0px;
+        }
+
+        &.link {
+            font-size: 30px;
+            margin: 9px 0px;
+        }
+    }
+}
+
+.card-middle .cards {
+    opacity: 1;
+    transform: scale(1) translate(0%, 0%);
+    .carosel-text {
+        &.title {
+            font-size: 40px;
+            margin: 15px 0px;
+        }
+        &.text {
+            font-size: 30px;
+            margin: -8px 0px;
+        }
+
+        &.link {
+            font-size: 30px;
+            margin: 15px 0px 0px 0px;
+            &:after{
+                position: absolute;
+                bottom: 15px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 0%;
+                content: '.';
+                color: transparent;
+                background: rgb(255, 255, 255);
+                height: 1px;
+                transition: all .5s;
+            }
+            &:hover:after {
+                width: 70%;
+            }
+        }
+    }
+}
+.card-right .cards  {
+    opacity: .5;
+    transform: scale(.6) translate(0%,-25%);
+    .carosel-text {
+        &.title {
+            font-size: 40px;
+            margin: 12px 0px;
+        }
+        &.text {
+            font-size: 30px;
+            margin: -5px 0px;
+        }
+
+        &.link {
+            font-size: 30px;
+            margin: 9px 0px;
+        }
+    }
+}
+
+.card-hidden .cards {
+    opacity: 0;
+    transform: scale(0) translate(0%,-150%);
+    .carosel-text {
+        &.title {
+            margin: 0px 0px;
+            font-size: 0px;
+        }
+        &.text {
+            font-size: 0px;
+            margin: 0px 0px;
+        }
+
+        &.link {
+            font-size: 0px;
+            margin: 0px 0px;
+        }
+    }
+}
+

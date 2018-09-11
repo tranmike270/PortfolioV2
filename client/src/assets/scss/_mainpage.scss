@@ -1,0 +1,54 @@
+.mainPage {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    background-color: transparent;
+    background-size: cover;
+    overflow: hidden;   
+    transition: linear 4s opacity 1s;
+    -moz-transition: linear 4s opacity 1s;
+    -webkit-transition: linear 4s opacity 1s;
+  }
+  
+  .main-exited {
+    opacity: 0;
+  }
+  
+  .main-entering {
+    animation: Fade 2s 6s 1;
+  }
+
+  .main-entered {
+    opacity: 1;
+  }
+
+  .pages {
+    z-index: 5;
+    width: 80%;
+    height: 60%;
+    background-color: transparent;
+    color: white;
+  }
+
+  .temp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  @keyframes Fade {
+      0% {
+          opacity: 0;
+      }
+      50% {
+          opacity: .5;
+      }
+      100% {
+          opacity: 1;
+      }
+  }

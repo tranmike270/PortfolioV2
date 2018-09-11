@@ -1,0 +1,147 @@
+.project-container{
+    height: -webkit-fill-available;
+    padding: 20px;
+
+}
+.project-image{
+    width: inherit;
+}
+
+.project-name{
+    color: white;
+    font-size: 26px;
+}
+
+.project-details{
+    color: white;
+}
+.project-links {
+    color: white;
+}
+
+.project-link{
+    color:white !important; 
+}
+
+.image-svg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-page-holder {
+    width: inherit;
+}
+
+.project-header {
+    background-color: rgba(0,0,0,.8);
+    border-right: 5px solid rgba(255,255,255,.7);
+}
+
+.project-title-holder {
+    margin: 10px;
+    height: 10%;
+    max-height: 10%;
+    overflow: hidden;
+}
+
+.projects-title {
+    color: rgba(255,255,255, .9);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin: auto;
+    padding: 0px;
+}
+
+.projects-body-holder {
+    margin: 10px;
+    height: 75%;
+    max-height: 75%;
+    overflow: hidden;
+}
+
+.projects-info-title {
+    color: rgba(219, 219, 219, 0.9);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    max-height: 15%;
+    max-height: 15%;
+}
+
+.projects-info-description {
+    color: rgba(126, 126, 126, 0.9);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    height: 30%;
+    max-height: 30%;
+    overflow: hidden;
+}
+
+.projects-info-tech-list {
+    margin: auto;
+    width: 100%;
+    list-style-type: none;
+    height: 25%;
+    max-height: 25%;
+    overflow: hidden;
+}
+
+.project-info-tech-title {
+    color: rgba(219, 219, 219, 0.9);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-info-tech {
+    display: table-cell !important;
+    color: rgba(175, 175, 175, 0.9);
+    text-align: center;
+    margin: 0px;
+}
+
+.projects-links-container {
+    margin: auto;
+    padding: 10px;
+    height: 20%;
+    max-height: 20%;
+}
+.projects-info-link {
+    color: rgba(0, 38, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+}
+
+.vertical-line {
+    border-right: 1px solid #ffffff66;    
+}
+.projects-info-version {
+    color: rgba(0, 38, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    height: 5%;
+    max-height: 5%;
+}
+
+.project-intructions-holder {
+    margin: 0px;
+    color: gray;
+    text-align: center;
+    height: 9%;
+    max-height: 9%;
+}
+
+.projects-intructions {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

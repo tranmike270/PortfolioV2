@@ -1,0 +1,10 @@
+client/src/assets/images/**
+client/src/assets/scss/**
+client/src/**/*.css
+client/src/registerServiceWorker.js
+client/src/utils/List.js
+**/node_modules
+**/*.md
+**/*.json
+client/build/**
+**/yarn.lock

@@ -1,0 +1,36 @@
+.reverseRotate {
+    animation: reverseMaxRotate 5s 1;
+}
+
+.clock-front {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    opacity: 0;
+    transition: linear 4s opacity 1s;
+    -moz-transition: linear 4s opacity 1s;
+    -webkit-transition: linear 4s opacity 1s;
+  }
+  
+  .clock-exiting {
+    opacity: .5;
+
+  }
+  .clock-exited{
+    opacity: .5;
+  
+  }
+  .clock-entered {
+    opacity: 1;
+  }
+
+@keyframes reverseMaxRotate {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(-720deg);
+    }
+}
