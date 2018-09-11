@@ -1,6 +1,10 @@
 {
     "name": "portfolio",
     "version": "1.0.0",
+    "engines": {
+        "node": "5.6.0",
+        "yarn": "1.7.0"
+      },
     "description": "My Portfolio",
     "main": "server.js",
     "scripts": {
