@@ -1,5 +1,5 @@
 {
-    "root": "build/",
+    "root": "client/build/",
     "https_only": true,
     "headers": {
         "/**": {
