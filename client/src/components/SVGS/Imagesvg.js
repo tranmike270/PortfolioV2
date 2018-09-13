@@ -12,7 +12,7 @@ class Imagesvg extends Component {
      */
     render() {
         return (
-            <svg className='image-svg' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' fillRule='evenodd' clipRule='evenodd' style = {{backgroundImage: `url(${this.props.image}`}}>
+            <svg className='image-svg' viewBox='0 0 24 24' xmlns='https://www.w3.org/2000/svg' fillRule='evenodd' clipRule='evenodd' style = {{backgroundImage: `url(${this.props.image}`}}>
 
             </svg>
         );
