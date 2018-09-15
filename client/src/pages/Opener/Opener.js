@@ -25,29 +25,29 @@ class Opener extends Component {
         };
     };
 
-    /**
-     * ComponentDidMount to set state.clockDimensions
-     */
-    componentDidMount() {
-        this.getDimensions();
-    };
+    // /**
+    //  * ComponentDidMount to set state.clockDimensions
+    //  */
+    // componentDidMount() {
+    //     this.getDimensions();
+    // };
 
-    /**
-     * Function to set dimensions for canvas
-     */
-    getDimensions() {
-        let windowWidth = $(window).width();
-        let clockDimensions = this.state.clockDimensions;
-            if (windowWidth < 965 && windowWidth >= 850) {
-                clockDimensions = 450;
-            } else if (windowWidth < 850 && windowWidth >= 500) {
-                clockDimensions = 400;
-            } else if (windowWidth < 500) {
-                clockDimensions = 300;
-            };
+    // /**
+    //  * Function to set dimensions for canvas
+    //  */
+    // getDimensions() {
+    //     let windowWidth = $(window).width();
+    //     let clockDimensions = this.state.clockDimensions;
+    //         if (windowWidth < 965 && windowWidth >= 850) {
+    //             clockDimensions = 450;
+    //         } else if (windowWidth < 850 && windowWidth >= 500) {
+    //             clockDimensions = 400;
+    //         } else if (windowWidth < 500) {
+    //             clockDimensions = 300;
+    //         };
 
-            this.setState({clockDimensions: clockDimensions});
-    };
+    //         this.setState({clockDimensions: clockDimensions});
+    // };
 
 
     /**

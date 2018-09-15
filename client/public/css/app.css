@@ -7614,10 +7614,58 @@ body {
     left: 100%; } }
 
 /*
-  Laptops 1200px - 1600px
+  Laptops & Desktops 1200px - 1600px
 */
 /* ----------- Non-Retina Screens ----------- */
 /* ----------- Retina Screens ----------- */
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+  #canvas {
+    max-width: 400px;
+    max-height: 400px; } }
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #canvas {
+    max-width: 400px;
+    max-height: 400px; } }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #canvas {
+    max-width: 300px;
+    max-height: 300px; } }
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #canvas {
+    max-width: 300px;
+    max-height: 300px; } }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  #canvas {
+    max-width: 200px;
+    max-height: 200px; } }
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #canvas {
+    max-width: 200px;
+    max-height: 200px; } }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+  #canvas {
+    max-width: 150px;
+    max-height: 150px; } }
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #canvas {
+    max-width: 150px;
+    max-height: 150px; } }
+
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
 /* Portrait and Landscape */
 /* Landscape */
