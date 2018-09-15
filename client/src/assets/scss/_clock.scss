@@ -10,19 +10,24 @@
     transition: linear 4s opacity 1s;
     -moz-transition: linear 4s opacity 1s;
     -webkit-transition: linear 4s opacity 1s;
-  }
+}
   
-  .clock-exiting {
+.clock-exiting {
     opacity: .5;
+}
 
-  }
-  .clock-exited{
+.clock-exited{
     opacity: .5;
-  
-  }
-  .clock-entered {
+}
+
+.clock-entered {
     opacity: 1;
-  }
+}
+
+#canvas {
+    max-width: 500px;
+    max-height: 500px;
+}
 
 @keyframes reverseMaxRotate {
     0% {

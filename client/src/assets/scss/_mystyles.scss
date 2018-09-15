@@ -11,7 +11,8 @@ body {
     height: 100% !important;
     height: -moz-available;          /* WebKit-based browsers will ignore this. */
     height: -webkit-fill-available !important;  /* Mozilla-based browsers will ignore this. */
-    height: fill-available;             
+    height: fill-available;
+    overflow: hidden;             
 }
 
 .mainPage {
