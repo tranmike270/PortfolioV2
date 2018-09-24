@@ -38,14 +38,17 @@
         display: block;
     }
 }
-.my-nav-body{
-    padding: 10px;
+.my-nav-name{
+    height: 20%;
     overflow: hidden;
     transition: ease all .33s;
 	-webkit-transition: ease all .33s;
 	-moz-transition: ease all .33s;
 }
 
+.my-nav-tabs {
+    height: 80%;
+}
 .nav-ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +60,8 @@
 }
 
 .nav-name {
-  
+  margin-left:100px;
+  margin-top: 50px;
 }
 .my-nav-item a{
     font-size: 3rem;
@@ -67,7 +71,7 @@
     color: rgba(255,255,255,.7);
     text-transform: uppercase;
     position: relative;
-    
+    margin-left: 100px;
 }
 
 .my-nav-item {

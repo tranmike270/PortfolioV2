@@ -72,8 +72,8 @@ class NavBody extends Component {
         });
         const show = this.props.navShow;
         return (
-            <div className='nav-body-container'>
-                <div className='row my-nav-body'>
+            <div className='col-md-12 nav-body-container'>
+                <div className='row my-nav-name'>
                     <Transition
                         in={show}
                         timeout={0}
@@ -88,6 +88,8 @@ class NavBody extends Component {
                             }
                         }
                     </Transition>
+                </div>
+                <div className='row my-nav-tabs'>
                     <Transition
                         in={show}
                         timeout={0}

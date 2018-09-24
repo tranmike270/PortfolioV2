@@ -54,6 +54,12 @@
       max-width: 300px;
       max-height: 300px;
     }
+
+    .load-page-button {
+      max-width: 9rem;
+    }
+
+
 }
 
 /* ----------- Retina Screens ----------- */
@@ -66,6 +72,12 @@
       max-width: 300px;
       max-height: 300px;
     }
+
+    .load-page-button {
+      max-width: 9rem;
+    }
+
+
 }
 
 
@@ -79,6 +91,19 @@
       max-width: 200px;
       max-height: 200px;
     }
+
+    .load-page-button {
+      max-width: 5rem;
+    }
+
+    .my-nav-item a { 
+      font-size: 2rem;
+      margin-left: 0px;
+    }
+
+    .nav-name {
+      margin-left:0px;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -90,6 +115,19 @@
     #canvas {
       max-width: 200px;
       max-height: 200px;
+    }
+
+    .load-page-button {
+      max-width: 5rem;
+    }
+
+    .my-nav-item a { 
+      font-size: 2rem;
+      margin-left: 0px;
+    }
+
+    .nav-name {
+      margin-left:0px;
     }
 }
 
@@ -104,6 +142,22 @@
       max-width: 150px;
       max-height: 150px;
     }
+
+    .load-page-button {
+      max-width: 5rem;
+    }
+
+    .my-nav-item a { 
+      font-size: 1.5rem;
+      margin-left: 0px;
+
+    }
+
+    .nav-name {
+      max-width: 300px;
+      max-height: 50px;
+      margin-left:0px;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -115,6 +169,21 @@
     #canvas {
       max-width: 150px;
       max-height: 150px;
+    }
+
+    .load-page-button {
+      max-width: 5rem;
+    }
+
+    .my-nav-item a { 
+      font-size: 1.5rem;
+      margin-left: 0px;
+    }
+
+    .nav-name {
+      max-width: 300px;
+      max-height: 50px;
+      margin-left:0px;
     }
 }
 

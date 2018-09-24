@@ -6313,6 +6313,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+#root {
+  overflow: hidden; }
+
 body {
   margin: 0;
   padding: 0 0 0 0;
@@ -6562,17 +6565,24 @@ body {
     width: 90%;
     display: block; }
 
-.my-nav-body {
-  padding: 10px;
+.my-nav-name {
+  height: 20%;
   overflow: hidden;
   transition: ease all .33s;
   -webkit-transition: ease all .33s;
   -moz-transition: ease all .33s; }
 
+.my-nav-tabs {
+  height: 80%; }
+
 .nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+
+.nav-name {
+  margin-left: 100px;
+  margin-top: 50px; }
 
 .my-nav-item a {
   font-size: 3rem;
@@ -6581,7 +6591,8 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  position: relative; }
+  position: relative;
+  margin-left: 100px; }
 
 .my-nav-item {
   margin: 2rem 0;
@@ -7634,37 +7645,73 @@ body {
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #canvas {
     max-width: 300px;
-    max-height: 300px; } }
+    max-height: 300px; }
+  .load-page-button {
+    max-width: 9rem; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #canvas {
     max-width: 300px;
-    max-height: 300px; } }
+    max-height: 300px; }
+  .load-page-button {
+    max-width: 9rem; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   #canvas {
     max-width: 200px;
-    max-height: 200px; } }
+    max-height: 200px; }
+  .load-page-button {
+    max-width: 5rem; }
+  .my-nav-item a {
+    font-size: 2rem;
+    margin-left: 0px; }
+  .nav-name {
+    margin-left: 0px; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #canvas {
     max-width: 200px;
-    max-height: 200px; } }
+    max-height: 200px; }
+  .load-page-button {
+    max-width: 5rem; }
+  .my-nav-item a {
+    font-size: 2rem;
+    margin-left: 0px; }
+  .nav-name {
+    margin-left: 0px; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
   #canvas {
     max-width: 150px;
-    max-height: 150px; } }
+    max-height: 150px; }
+  .load-page-button {
+    max-width: 5rem; }
+  .my-nav-item a {
+    font-size: 1.5rem;
+    margin-left: 0px; }
+  .nav-name {
+    max-width: 300px;
+    max-height: 50px;
+    margin-left: 0px; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #canvas {
     max-width: 150px;
-    max-height: 150px; } }
+    max-height: 150px; }
+  .load-page-button {
+    max-width: 5rem; }
+  .my-nav-item a {
+    font-size: 1.5rem;
+    margin-left: 0px; }
+  .nav-name {
+    max-width: 300px;
+    max-height: 50px;
+    margin-left: 0px; } }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
 /* Portrait and Landscape */
@@ -7717,3 +7764,5 @@ body {
 /* Portrait and Landscape */
 /* Portrait */
 /* Landscape */
+
+/*# sourceMappingURL=app.css.map */
