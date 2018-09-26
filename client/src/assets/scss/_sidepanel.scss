@@ -8,7 +8,7 @@
 }
 
 .panel-item-container{
-    overflow: hidden;
+    overflow: visible;
     margin: auto;
 }
 .panel-item {
@@ -28,17 +28,22 @@
     padding: 0px;
     margin: 0px;
     position: relative;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20%;
 }
 
 .panel-item-svg {
     position: relative;
     background-color: rgba(0,0,0,0);
-    opacity: .7;
+    opacity: .8;
     padding: 0px;
     transition: linear 1s all ;
     border-radius: 20%;
     -moz-transition: linear 1s all ;
     -webkit-transition: linear 1s all ;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
+    box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
 }
 .panel-item-text {
     position: absolute;
