@@ -47,8 +47,8 @@ class Navigations extends Component {
                         <Col md={this.state.navShow ? '12' : '1'} className={`my-navbar nav-${state}`}>
                             <div className='row'>
                                 <NavBody toggleNav={this.toggleNav} navShow={this.state.navShow} />
+                                    <NavIcon toggleNav={this.toggleNav.bind(this)} navShow={this.state.navShow}/>
                             </div>
-                            <NavIcon toggleNav={this.toggleNav.bind(this)} navShow={this.state.navShow}/>
                         </Col>
                         );
                     }

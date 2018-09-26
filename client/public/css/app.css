@@ -6619,7 +6619,7 @@ body {
 .my-nav-item a:hover {
   color: white; }
 
-#my-nav-icon {
+.my-nav-icon {
   background-color: transparent;
   position: absolute;
   right: -6rem;
@@ -7664,11 +7664,22 @@ body {
     max-height: 200px; }
   .load-page-button {
     max-width: 5rem; }
+  .my-navbar {
+    border-right: 4rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem; }
+  .my-nav-icon {
+    right: -4rem;
+    width: 4rem; }
+  .icon-line1, .icon-line2, .icon-line3 {
+    width: 2.7rem; }
+  .nav-icon-border {
+    right: -10px;
+    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem; }
   .my-nav-item a {
-    font-size: 2rem;
-    margin-left: 0px; }
-  .nav-name {
-    margin-left: 0px; } }
+    font-size: 2rem; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7677,11 +7688,22 @@ body {
     max-height: 200px; }
   .load-page-button {
     max-width: 5rem; }
+  .my-navbar {
+    border-right: 4rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem; }
+  .my-nav-icon {
+    right: -4rem;
+    width: 4rem; }
+  .icon-line1, .icon-line2, .icon-line3 {
+    width: 2.7rem; }
+  .nav-icon-border {
+    right: -10px;
+    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem; }
   .my-nav-item a {
-    font-size: 2rem;
-    margin-left: 0px; }
-  .nav-name {
-    margin-left: 0px; } }
+    font-size: 2rem; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7690,13 +7712,37 @@ body {
     max-height: 150px; }
   .load-page-button {
     max-width: 5rem; }
+  .my-navbar {
+    border-right: 3rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem; }
+  .nav-entered {
+    border: transparent; }
+  .my-nav-icon {
+    right: -4rem;
+    width: 4rem; }
+  .my-nav-entered {
+    width: 0rem;
+    height: 0rem;
+    right: 50%;
+    top: 65%; }
+  .icon-line1, .icon-line2, .icon-line3 {
+    width: 2.7rem; }
+  .rotate1-entered, .rotate2-entered, .rotate3-entered {
+    width: 5rem;
+    margin-left: -2.5rem; }
+  .nav-icon-border {
+    right: 6px;
+    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem; }
   .my-nav-item a {
     font-size: 1.5rem;
-    margin-left: 0px; }
+    margin: auto; }
   .nav-name {
     max-width: 300px;
     max-height: 50px;
-    margin-left: 0px; } }
+    margin: 50px auto auto auto; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7705,12 +7751,36 @@ body {
     max-height: 150px; }
   .load-page-button {
     max-width: 5rem; }
+  .my-navbar {
+    border-right: 3rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem; }
+  .nav-entered {
+    border: transparent; }
+  .my-nav-icon {
+    right: -4rem;
+    width: 4rem; }
+  .my-nav-entered {
+    width: 0rem;
+    height: 0rem;
+    right: 50%;
+    top: 65%; }
   .my-nav-item a {
     font-size: 1.5rem;
-    margin-left: 0px; }
+    margin: auto; }
+  .icon-line1, .icon-line2, .icon-line3 {
+    width: 2.7rem; }
+  .rotate1-entered, .rotate2-entered, .rotate3-entered {
+    width: 5rem;
+    margin-left: -2.5rem; }
+  .nav-icon-border {
+    right: 6px;
+    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem; }
   .nav-name {
     max-width: 300px;
     max-height: 50px;
-    margin-left: 0px; } }
+    margin: 50px auto auto auto; } }
 
 /*# sourceMappingURL=app.css.map */

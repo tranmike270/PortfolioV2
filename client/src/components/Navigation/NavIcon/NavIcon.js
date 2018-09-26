@@ -41,7 +41,7 @@ class NavIcon extends Component {
                 {
                     (state) => {
                         return (
-                            <div id="my-nav-icon" onClick={this.handleClick.bind(this)}>
+                            <div className={`my-nav-icon my-nav-${state}`}onClick={this.handleClick.bind(this)}>
                                 <span className={`icon-line1 rotate1-${state}`}></span>
                                 <span className={`icon-line2 rotate2-${state}`}></span>
                                 <span className={`icon-line3 rotate3-${state}`}></span>
