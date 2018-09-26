@@ -212,9 +212,7 @@
     }
 
     .my-navbar {
-      border-right: 3rem solid rgba(0,0,0,.8);
-      border-top-right-radius: 3rem;
-      border-bottom-right-radius: 3rem;
+      border: none;
     }
 
     .nav-entered {
@@ -224,6 +222,7 @@
     .my-nav-icon {
       right: -4rem;
       width: 4rem;
+      top: 5%;
     }
 
     .my-nav-entered {
@@ -235,6 +234,7 @@
 
     .icon-line1, .icon-line2, .icon-line3 {
       width: 2.7rem;
+      z-index: 1;
     }
 
 
@@ -243,11 +243,12 @@
       margin-left: -2.5rem;
     }
 
-    .nav-icon4border {
-      right: 6px;
-      border-right: .65rem solid rgba(0, 0, 0, 0.8);
+    .nav-icon-border {
+      right: 0px;
+      border-right: 3.65rem solid rgba(0, 0, 0, 0.8);
       border-top-right-radius: 1rem;
       border-bottom-right-radius: 1rem;
+      z-index: 0;
     }
 
     .my-nav-item a { 
@@ -264,7 +265,7 @@
     .logo-name {
       width: 85%;
       height: 30%;
-      margin: auto 5% auto 15%;
+      margin: auto 10% auto 10%;
     }
 }
 
@@ -284,9 +285,7 @@
     }
 
     .my-navbar {
-      border-right: 3rem solid rgba(0,0,0,.8);
-      border-top-right-radius: 3rem;
-      border-bottom-right-radius: 3rem;
+      border: none;
     }
 
     .nav-entered {
@@ -312,6 +311,7 @@
 
     .icon-line1, .icon-line2, .icon-line3 {
       width: 2.7rem;
+      z-index: 1;
     }
 
     .rotate1-entered, .rotate2-entered, .rotate3-entered {
@@ -320,10 +320,11 @@
     }
 
     .nav-icon-border {
-      right: 6px;
-      border-right: .65rem solid rgba(0, 0, 0, 0.8);
+      right: 0px;
+      border-right: 3.65rem solid rgba(0, 0, 0, 0.8);
       border-top-right-radius: 1rem;
       border-bottom-right-radius: 1rem;
+      z-index: 0;
     }
 
     .nav-name {
@@ -335,7 +336,7 @@
     .logo-name {
       width: 85%;
       height: 30%;
-      margin: auto 5% auto 15%;
+      margin: auto 10% auto 10%;
     }
 }
 

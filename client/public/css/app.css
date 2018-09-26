@@ -7733,29 +7733,30 @@ body {
   .load-page-button {
     max-width: 5rem; }
   .my-navbar {
-    border-right: 3rem solid rgba(0, 0, 0, 0.8);
-    border-top-right-radius: 3rem;
-    border-bottom-right-radius: 3rem; }
+    border: none; }
   .nav-entered {
     border: transparent; }
   .my-nav-icon {
     right: -4rem;
-    width: 4rem; }
+    width: 4rem;
+    top: 5%; }
   .my-nav-entered {
     width: 0rem;
     height: 0rem;
     right: 50%;
     top: 90%; }
   .icon-line1, .icon-line2, .icon-line3 {
-    width: 2.7rem; }
+    width: 2.7rem;
+    z-index: 1; }
   .rotate1-entered, .rotate2-entered, .rotate3-entered {
     width: 5rem;
     margin-left: -2.5rem; }
-  .nav-icon4border {
-    right: 6px;
-    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+  .nav-icon-border {
+    right: 0px;
+    border-right: 3.65rem solid rgba(0, 0, 0, 0.8);
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem; }
+    border-bottom-right-radius: 1rem;
+    z-index: 0; }
   .my-nav-item a {
     font-size: 1.5rem;
     margin: auto; }
@@ -7766,7 +7767,7 @@ body {
   .logo-name {
     width: 85%;
     height: 30%;
-    margin: auto 5% auto 15%; } }
+    margin: auto 10% auto 10%; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7776,9 +7777,7 @@ body {
   .load-page-button {
     max-width: 5rem; }
   .my-navbar {
-    border-right: 3rem solid rgba(0, 0, 0, 0.8);
-    border-top-right-radius: 3rem;
-    border-bottom-right-radius: 3rem; }
+    border: none; }
   .nav-entered {
     border: transparent; }
   .my-nav-icon {
@@ -7793,15 +7792,17 @@ body {
     font-size: 1.5rem;
     margin: auto; }
   .icon-line1, .icon-line2, .icon-line3 {
-    width: 2.7rem; }
+    width: 2.7rem;
+    z-index: 1; }
   .rotate1-entered, .rotate2-entered, .rotate3-entered {
     width: 4rem;
     margin-left: -2.5rem; }
   .nav-icon-border {
-    right: 6px;
-    border-right: 0.65rem solid rgba(0, 0, 0, 0.8);
+    right: 0px;
+    border-right: 3.65rem solid rgba(0, 0, 0, 0.8);
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem; }
+    border-bottom-right-radius: 1rem;
+    z-index: 0; }
   .nav-name {
     max-width: 300px;
     max-height: 50px;
@@ -7809,6 +7810,6 @@ body {
   .logo-name {
     width: 85%;
     height: 30%;
-    margin: auto 5% auto 15%; } }
+    margin: auto 10% auto 10%; } }
 
 /*# sourceMappingURL=app.css.map */
