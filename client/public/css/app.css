@@ -7633,13 +7633,17 @@ body {
 @media screen and (min-device-width: 1025px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
   #canvas {
     max-width: 400px;
-    max-height: 400px; } }
+    max-height: 400px; }
+  .logo-name {
+    width: 70%; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #canvas {
     max-width: 400px;
-    max-height: 400px; } }
+    max-height: 400px; }
+  .logo-name {
+    width: 70%; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7647,7 +7651,11 @@ body {
     max-width: 300px;
     max-height: 300px; }
   .load-page-button {
-    max-width: 9rem; } }
+    max-width: 9rem; }
+  .logo-name {
+    width: 75%;
+    height: 55%;
+    margin: auto 10% auto 10%; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7655,7 +7663,11 @@ body {
     max-width: 300px;
     max-height: 300px; }
   .load-page-button {
-    max-width: 9rem; } }
+    max-width: 9rem; }
+  .logo-name {
+    width: 75%;
+    height: 55%;
+    margin: auto 10% auto 10%; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7679,7 +7691,11 @@ body {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem; }
   .my-nav-item a {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .logo-name {
+    width: 85%;
+    height: 40%;
+    margin: auto 5% auto 15%; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7703,7 +7719,11 @@ body {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem; }
   .my-nav-item a {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .logo-name {
+    width: 85%;
+    height: 40%;
+    margin: auto 5% auto 15%; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7742,7 +7762,11 @@ body {
   .nav-name {
     max-width: 300px;
     max-height: 50px;
-    margin: 50px auto auto auto; } }
+    margin: 50px auto auto auto; }
+  .logo-name {
+    width: 85%;
+    height: 30%;
+    margin: auto 5% auto 15%; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7781,6 +7805,10 @@ body {
   .nav-name {
     max-width: 300px;
     max-height: 50px;
-    margin: 50px auto auto auto; } }
+    margin: 50px auto auto auto; }
+  .logo-name {
+    width: 85%;
+    height: 30%;
+    margin: auto 5% auto 15%; } }
 
 /*# sourceMappingURL=app.css.map */

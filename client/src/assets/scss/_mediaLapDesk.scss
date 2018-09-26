@@ -29,6 +29,10 @@
       max-width: 400px;
       max-height: 400px;
     }
+
+    .logo-name {
+      width: 70%;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -41,6 +45,10 @@
       max-width: 400px;
       max-height: 400px;
     }
+
+    .logo-name {
+      width: 70%;
+    }
 }
 
 
@@ -59,6 +67,11 @@
       max-width: 9rem;
     }
 
+    .logo-name {
+      width: 75%;
+      height: 55%;
+      margin: auto 10% auto 10%;
+    }
 
 }
 
@@ -77,6 +90,11 @@
       max-width: 9rem;
     }
 
+    .logo-name {
+      width: 75%;
+      height: 55%;
+      margin: auto 10% auto 10%;
+    }
 
 }
 
@@ -122,8 +140,10 @@
       font-size: 2rem;
     }
 
-    .nav-name {
-      
+    .logo-name {
+      width: 85%;
+      height: 40%;
+      margin: auto 5% auto 15%;
     }
 }
 
@@ -168,8 +188,10 @@
       font-size: 2rem;
     }
 
-    .nav-name {
-      
+    .logo-name {
+      width: 85%;
+      height: 40%;
+      margin: auto 5% auto 15%;
     }
 }
 
@@ -238,6 +260,12 @@
       max-height: 50px;
       margin: 50px auto auto auto;
     }
+
+    .logo-name {
+      width: 85%;
+      height: 30%;
+      margin: auto 5% auto 15%;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -302,6 +330,12 @@
       max-width: 300px;
       max-height: 50px;
       margin: 50px auto auto auto;
+    }
+
+    .logo-name {
+      width: 85%;
+      height: 30%;
+      margin: auto 5% auto 15%;
     }
 }
 
