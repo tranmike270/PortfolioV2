@@ -7,7 +7,62 @@
   and (min-device-width: 1281px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
 
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -16,6 +71,63 @@
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 
@@ -33,6 +145,10 @@
     .logo-name {
       width: 70%;
     }
+
+    .panel-title {
+      font-size: 1.4em;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -49,13 +165,17 @@
     .logo-name {
       width: 70%;
     }
+
+    .panel-title {
+      font-size: 1.4em;
+    }
 }
 
 
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 769px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     #canvas {
@@ -73,11 +193,19 @@
       margin: auto 10% auto 10%;
     }
 
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
+    }
+
 }
 
 /* ----------- Retina Screens ----------- */
 @media screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 769px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
@@ -94,6 +222,14 @@
       width: 75%;
       height: 55%;
       margin: auto 10% auto 10%;
+    }
+
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
     }
 
 }
@@ -154,9 +290,15 @@
       z-index: 0;
     }
 
+    .nav-name {
+      max-width: 300px;
+      max-height: 50px;
+      margin: 50px auto auto auto;
+    }
 
     .my-nav-item a { 
       font-size: 2rem;
+      margin: auto;
     }
 
     .logo-name {
@@ -183,6 +325,14 @@
       max-height: 80px;
       max-width: 80px;
       margin: auto;
+    }
+
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
     }
 }
 
@@ -242,8 +392,15 @@
     }
 
 
+    .nav-name {
+      max-width: 300px;
+      max-height: 50px;
+      margin: 50px auto auto auto;
+    }
+
     .my-nav-item a { 
       font-size: 2rem;
+      margin: auto;
     }
 
     .logo-name {
@@ -270,6 +427,14 @@
       max-height: 80px;
       max-width: 80px;
       margin: auto;
+    }
+
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
     }
 }
 
@@ -317,8 +482,8 @@
 
 
     .rotate1-entered, .rotate2-entered, .rotate3-entered {
-      width: 5rem;
-      margin-left: -2.5rem;
+      width: 4rem;
+      margin-left: -2rem;
     }
 
     .nav-icon-border {
@@ -364,6 +529,14 @@
       max-height: 80px;
       max-width: 80px;
       margin: auto;
+    }
+
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
     }
 }
 
@@ -414,7 +587,7 @@
 
     .rotate1-entered, .rotate2-entered, .rotate3-entered {
       width: 4rem;
-      margin-left: -2.5rem;
+      margin-left: -2rem;
     }
 
     .nav-icon-border {
@@ -455,6 +628,14 @@
       max-height: 80px;
       max-width: 80px;
       margin: auto;
+    }
+
+    .panel-title {
+      font-size: 1em;
+    }
+
+    .panel-link {
+      font-size: 1.4em;
     }
 }
 

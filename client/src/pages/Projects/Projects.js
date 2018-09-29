@@ -235,11 +235,11 @@ class Projects extends Component {
                                         </div>
                                         <div className={`row project-intructions-holder`}>
                                             <div className={`col-md-12 projects-intructions`}>
-                                                ** Scroll to the cards to view technologies used and more information **
+                                                Scroll to the cards to view technologies used and more information
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`col-md-9 no-pad`}>
+                                    <div className={`col-md-9 no-pad carosel-holder`}>
                                         <Carosel cardInfo = {this.state.projects} size={4} toggleInfo={this.toggleIndex} />
                                     </div>
                                 </div>

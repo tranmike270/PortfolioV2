@@ -163,11 +163,11 @@ class Contact extends Component {
                                         </div>
                                         <div className={`row contact-intructions-holder`}>
                                             <div className={`col-md-12 d-flex justify-content-center contact-intructions`}>
-                                               ** Scroll to the card to view more information **
+                                               Scroll to the card to view more information
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={`col-md-9 no-pad`}>
+                                    <div className={`col-md-9 no-pad carosel-holder`}>
                                        <Carosel cardInfo = {this.state.cards} size={4} toggleInfo={this.toggleInfo}/>
                                     </div>
                                 </div>
