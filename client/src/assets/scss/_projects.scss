@@ -38,6 +38,14 @@
     background-color: rgba(0,0,0,.8);
     border-right: 5px solid rgba(255,255,255,.7);
     overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 3px;  /* remove scrollbar space */
+        background: transparent;  /* optional: just make scrollbar invisible */
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, .5);
+    }
 }
 
 .project-title-holder {

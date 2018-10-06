@@ -121,6 +121,13 @@
 .about-display {
     height: 100%;
     overflow: auto;
+    &::-webkit-scrollbar {
+        width: 3px;  /* remove scrollbar space */
+        background: transparent;  /* optional: just make scrollbar invisible */
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, .5);
+    }
 }
 
 .about-display-body {

@@ -6740,6 +6740,13 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   border-right: 5px solid rgba(255, 255, 255, 0.7);
   overflow: auto; }
+  .project-header::-webkit-scrollbar {
+    width: 3px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */ }
+  .project-header::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); }
 
 .project-title-holder {
   margin: 10px; }
@@ -7374,6 +7381,14 @@ body {
 .about-display {
   height: 100%;
   overflow: auto; }
+  .about-display::-webkit-scrollbar {
+    width: 3px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */ }
+  .about-display::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%; }
 
 .about-display-body {
   padding: 15px 5px 25px; }
@@ -7681,7 +7696,34 @@ body {
   .logo-name {
     width: 70%; }
   .panel-title {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1025px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7691,7 +7733,34 @@ body {
   .logo-name {
     width: 70%; }
   .panel-title {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7723,7 +7792,34 @@ body {
   .panel-title {
     font-size: 1em; }
   .panel-link {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7785,7 +7881,34 @@ body {
   .panel-title {
     font-size: 1em; }
   .panel-link {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7847,7 +7970,34 @@ body {
   .panel-title {
     font-size: 1em; }
   .panel-link {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -7909,7 +8059,34 @@ body {
   .panel-title {
     font-size: 1em; }
   .panel-link {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -7970,6 +8147,33 @@ body {
   .panel-title {
     font-size: 1em; }
   .panel-link {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .project-header {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .carosel-holder {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .cards {
+    height: unset;
+    max-height: 300px; }
+  .card-left .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-left .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-left .cards .carosel-text.link {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.title {
+    font-size: 20px; }
+  .card-middle .cards .carosel-text.text {
+    font-size: 15px; }
+  .card-middle .cards .carosel-text.link {
+    font-size: 20px; }
+  .card-right .cards .carosel-text.title {
+    font-size: 15px; }
+  .card-right .cards .carosel-text.text {
+    font-size: 10px; }
+  .card-right .cards .carosel-text.link {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -149,6 +149,63 @@
     .panel-title {
       font-size: 1.4em;
     }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -169,6 +226,63 @@
     .panel-title {
       font-size: 1.4em;
     }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 
@@ -230,6 +344,63 @@
 
     .panel-link {
       font-size: 1.4em;
+    }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
     }
 
 }
@@ -334,6 +505,63 @@
     .panel-link {
       font-size: 1.4em;
     }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -435,6 +663,63 @@
 
     .panel-link {
       font-size: 1.4em;
+    }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
     }
 }
 
@@ -538,6 +823,63 @@
     .panel-link {
       font-size: 1.4em;
     }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -636,6 +978,63 @@
 
     .panel-link {
       font-size: 1.4em;
+    }
+
+    .project-header {
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .carosel-holder {
+      max-width: 60%;
+      flex: 0 0 60%;
+    }
+
+    .cards {
+      height: unset;
+      max-height: 300px;
+    }
+
+    .card-left .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
+    }
+
+    .card-middle .cards .carosel-text {
+      &.title {
+        font-size: 20px;
+      }
+
+      &.text {
+        font-size: 15px;
+      }
+
+      &.link {
+        font-size: 20px;
+      }
+    }
+
+    .card-right .cards .carosel-text {
+      &.title {
+        font-size: 15px;
+      }
+
+      &.text {
+        font-size: 10px;
+      }
+
+      &.link {
+        font-size: 15px;
+      }
     }
 }
 
