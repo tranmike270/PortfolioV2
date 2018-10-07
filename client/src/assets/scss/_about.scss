@@ -120,7 +120,8 @@
 
 .about-display {
     height: 100%;
-    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
     &::-webkit-scrollbar {
         width: 3px;  /* remove scrollbar space */
         background: transparent;  /* optional: just make scrollbar invisible */
@@ -247,11 +248,12 @@
 
 .skills-title {
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     display: flow-root;
     justify-content: center;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .skills-hr {
