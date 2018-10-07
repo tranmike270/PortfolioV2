@@ -7,11 +7,13 @@
   and (min-device-width: 1281px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -72,11 +74,13 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -136,25 +140,31 @@
 @media screen 
   and (min-device-width: 1025px) 
   and (max-device-width: 1280px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    // Clock
     #canvas {
       max-width: 400px;
       max-height: 400px;
     }
 
+    // Main page logo
     .logo-name {
       width: 70%;
     }
 
+    // Side Panel
     .panel-title {
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -214,24 +224,30 @@
   and (max-device-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+
+    // Clock
     #canvas {
       max-width: 400px;
       max-height: 400px;
     }
 
+    // Main page logo
     .logo-name {
       width: 70%;
     }
 
+    // Side panel
     .panel-title {
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -292,21 +308,26 @@
   and (min-device-width: 769px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    // Clock
     #canvas {
       max-width: 300px;
       max-height: 300px;
     }
 
+    // Load page button
     .load-page-button {
       max-width: 9rem;
     }
 
+    // Main page logo
     .logo-name {
       width: 75%;
       height: 55%;
       margin: auto 10% auto 10%;
     }
 
+    // Side Panel
     .panel-title {
       font-size: 1em;
     }
@@ -322,22 +343,27 @@
   and (min-device-width: 769px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+  and (min-resolution: 192dpi) {
+    
+    // Clock
     #canvas {
       max-width: 300px;
       max-height: 300px;
     }
 
+    // Load page button
     .load-page-button {
       max-width: 9rem;
     }
 
+    // Main page logo
     .logo-name {
       width: 75%;
       height: 55%;
       margin: auto 10% auto 10%;
     }
 
+    // Side panel
     .panel-title {
       font-size: 1em;
     }
@@ -346,11 +372,13 @@
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -412,15 +440,19 @@
   and (min-device-width: 481px) 
   and (max-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    // Clock
     #canvas {
       max-width: 200px;
       max-height: 200px;
     }
 
+    // Main page load button
     .load-page-button {
       max-width: 5rem;
     }
 
+    // Navigations bar
     .my-navbar {
       border: none;
     }
@@ -478,6 +510,7 @@
       margin: auto 5% auto 15%;
     }
 
+    // Side Panel
     .side-panel {
       top: auto;
       bottom: 0px;
@@ -506,11 +539,13 @@
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -570,15 +605,19 @@
   and (max-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+
+    // Clock
     #canvas {
       max-width: 200px;
       max-height: 200px;
     }
 
+    // Load page button
     .load-page-button {
       max-width: 5rem;
     }
 
+    // Navigations
     .my-navbar {
       border: none;
     }
@@ -631,12 +670,14 @@
       margin: auto;
     }
 
+    // Main page logo
     .logo-name {
       width: 85%;
       height: 40%;
       margin: auto 5% auto 15%;
     }
 
+    // Side panel
     .side-panel {
       top: auto;
       bottom: 0px;
@@ -665,11 +706,13 @@
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -730,15 +773,19 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    // Clock
     #canvas {
       max-width: 150px;
       max-height: 150px;
     }
 
+    // Load button
     .load-page-button {
       max-width: 5rem;
     }
 
+    // Navigations
     .my-navbar {
       border: none;
     }
@@ -790,12 +837,14 @@
       margin: 50px auto auto auto;
     }
 
+    // Main page logo
     .logo-name {
       width: 85%;
       height: 30%;
       margin: auto 10% auto 10%;
     }
 
+    // Side panel
     .side-panel {
       top: auto;
       bottom: 0px;
@@ -824,11 +873,13 @@
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
@@ -888,15 +939,19 @@
   and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+
+    // Clock
     #canvas {
       max-width: 150px;
       max-height: 150px;
     }
 
+    // Load button
     .load-page-button {
       max-width: 5rem;
     }
 
+    // Navigations
     .my-navbar {
       border: none;
     }
@@ -946,12 +1001,14 @@
       margin: 50px auto auto auto;
     }
 
+    // Main Page Logo
     .logo-name {
       width: 85%;
       height: 30%;
       margin: auto 10% auto 10%;
     }
 
+    // Side Panel
     .side-panel {
       top: auto;
       bottom: 0px;
@@ -980,11 +1037,13 @@
       font-size: 1.4em;
     }
 
+    // Projects
     .project-header {
       max-width: 40%;
       flex: 0 0 40%;
     }
 
+    // Carosel
     .carosel-holder {
       max-width: 60%;
       flex: 0 0 60%;
