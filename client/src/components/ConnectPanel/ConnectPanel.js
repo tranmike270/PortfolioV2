@@ -4,6 +4,7 @@ import uniqid from 'uniqid';
 import PanelItem from './PanelItem';
 const propTypes = {
     panelItemsInfo: PropTypes.array.isRequired,
+    opacityState: PropTypes.string.isRequired,
 };
 
 /**
@@ -56,7 +57,7 @@ class ConnectPanel extends Component {
             );
         });
         return (
-            <div className={`d-flex justify-content-center col side-panel`}>
+            <div className={`d-flex justify-content-center col side-panel main-panel-${this.props.opacityState}`}>
                 <div className={`row panel-item-container`}>
                     {panelItems}
                 </div>

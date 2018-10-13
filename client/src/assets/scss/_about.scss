@@ -142,6 +142,10 @@
 
 .about-display-body {
     padding: 15px 5px 25px;
+
+    &.words {
+        padding: 0px !important;
+    }
 }
 
 .about-display-title-holder {
@@ -168,41 +172,3 @@
     margin:auto;
 }
 
-.edu-title-holder {
-    text-align: center;
-}
-
-
-.edu-row {
-    text-align: center;
-}
-
-.school {
-    font-weight: 600;
-    font-size: 21px;
-}
-
-.school-grad {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.school-ud {
-    font-size: 16px;
-    font-weight: 400;
-    margin: auto;
-}
-
-.edu-splitter::after {
-    content: '';
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 35%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 255, 255, 0) 100%);
-}
-
-.education-history-holder {
-    margin: 15px auto 40px;
-}

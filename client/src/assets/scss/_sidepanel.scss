@@ -5,6 +5,24 @@
     height: 100%;
     width: 15%;
     z-index: 98;
+    opacity: 0;
+    transition: linear 4s opacity 1s;
+    -moz-transition: linear 4s opacity 1s;
+    -webkit-transition: linear 4s opacity 1s;
+    &.main-panel-exited {
+        opacity: 0;
+    
+      }
+      
+    &.main-panel-entering {
+        animation: Fade 2s 6s 1;
+    
+      }
+    
+    &.main-panel-entered {
+        opacity: 1;
+    
+      }
 }
 
 .panel-item-container{

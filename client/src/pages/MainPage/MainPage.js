@@ -59,12 +59,12 @@ class MainPage extends Component {
                     return (
                         <Container fluid className={`mainPage main-${state}`}>
                             <Row>
-                                <Navigations toggleDisplay={this.toggleDisplay.bind(this)}/>
+                                <Navigations opacityState={state} toggleDisplay={this.toggleDisplay.bind(this)}/>
                                 <div hidden={this.state.display}>
                                     <Col className={'d-flex justify-content-center pages'}>
                                         <MainBody />
                                     </Col>
-                                    <ConnectPanel panelItemsInfo={connectItems} />
+                                    <ConnectPanel opacityState={state} panelItemsInfo={connectItems} />
                                 </div>
                             </Row>
                         </Container>
