@@ -235,7 +235,7 @@ class Projects extends Component {
                                         </div>
                                         <div className={`row project-intructions-holder`}>
                                             <div className={`col-md-12 projects-intructions`}>
-                                                Scroll to the cards to view technologies used and more information
+                                                Click arrows to view other projects
                                             </div>
                                         </div>
                                     </div>

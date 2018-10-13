@@ -3,15 +3,8 @@ import Opener from '../../pages/Opener/Opener';
 import Transition from 'react-transition-group/Transition';
 import MainPage from '../../pages/MainPage/MainPage';
 import backgroundImage from '../../assets/images/bodybackground.jpg';
-import {withRouter} from 'react-router-dom';
-import PropTypes from 'prop-types';
-// import $ from 'jquery';
-
 
 const propTypes = {
-    match: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired,
 };
 /**
  * @return {*} Container for opener
@@ -30,12 +23,6 @@ class Wrapper extends Component {
     };
   };
 
-    /**
-   * function to run on page load
-   */
-  componentDidMount() {
-    console.log(this.props);
-  }
   /**
    * Function to load the main page
    */
@@ -74,4 +61,4 @@ class Wrapper extends Component {
 }
 Wrapper.propTypes = propTypes;
 
-export default withRouter(Wrapper);
+export default Wrapper;

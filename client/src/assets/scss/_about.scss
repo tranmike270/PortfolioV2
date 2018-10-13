@@ -50,8 +50,8 @@
 
 .tab-holder {
     margin:auto;
-    height: 20%;
-    max-height: 20%;
+    height: 16.6666666%;
+    max-height: 16.6666666%;
 }
 
 
@@ -61,7 +61,7 @@
 
 .hover-animations {
     position: absolute;
-    top: 10%;
+    top: 8.33333333%;
     left: 50%;
     width: 0%;
     height: 0%;
@@ -73,20 +73,26 @@
 }
 
 .h-ani-1 {
-    top: 30%;
+    top: 24.9999999%;
 }
 
 .h-ani-2 {
-    top: 50%;
+    top: 41.6666666%;
 }
 
 .h-ani-3 {
-    top: 70%;
+    top: 58.3333333%;
 }
 
 .h-ani-4 {
-    top: 90%;
+    top: 74.9999999%;
 }
+
+.h-ani-5 {
+    top: 91.6666666%;
+}
+
+
 
 .tab-holder::after {
     content: '';
@@ -102,19 +108,22 @@
 .tab-holder:hover .hover-animations{
     left: 0%;
     top: 0%;
-    height: 20%;
+    height: 16.6666666%;
     width: 92%;
     &.h-ani-1 {
-        top: 20%;
+        top: 16.6666666%;
     }
     &.h-ani-2 {
-        top: 40%;
+        top: 33.3333333%;
     }
     &.h-ani-3 {
-        top: 60%;
+        top: 49.9999999%;
     }
     &.h-ani-4 {
-        top: 80%;
+        top: 66.6666666%;
+    }
+    &.h-ani-5 {
+        top: 83.6666666%;
     }
 }
 
@@ -155,217 +164,8 @@
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 10%, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0) 80%);
 }
 
-.my-picture {
-    padding: 0px 0px 0px 0px;
-    border-radius: 50%;
-    border: 1px solid black;
-    overflow: hidden;
-    width: 250px;
-    height: 250px;
-}
-
-.about-intro-bold {
-    display: flex;
-    justify-content: flex-end;
-    font-weight: 900;
-    text-align: right;
-    color: rgba(234, 236, 249, 0.9);
-    font-size: 35px;
-    white-space: nowrap;
-    margin: 20px;
-}
-
-.about-intro-stuff {
-    margin-left: 15px;
-    font-weight: 900;
-    color: rgba(255,255,255,1);
-}
-.intro-mains {
-    margin: auto;
-}
-
-.intro-basic {
-    margin: 0px;
-    width: 100%;
-}
-
 .about-display-content {
     margin:auto;
-}
-
-.intro-sum {
-
-}
-
-.sum-title-holder {
-    margin: 0px;
-}
-
-.sum-title {
-    color: white;
-    font-size: 45px;
-    font-weight: 900;
-    text-align: end;
-}
-
-.sum-text-holder {
-    margin: 0px;
-}
-
-.sum-text {
-    margin: auto;
-    color: white;
-    font-size: 21px;
-    text-indent: 5%;
-    text-align: end;
-}
-
-.sum-display-hr {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0.75) 75%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0) 100%);
-}
-
-
-
-.skills-holder {
-
-}
-
-.skills-body {
-    height: 100%;
-}
-
-.skills-left {
-
-}
-
-.skills-right {
-
-}
-
-.skills-title-holder {
-    margin: 15px;
-}
-
-.skills-title {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    display: flow-root;
-    justify-content: center;
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.skills-hr {
-    margin: auto;
-}
-
-.skills-hr-left {
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0) 100%);
-}
-
-.skills-hr-right {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0) 100%);
-}
-
-.skills-context-holder {
-    padding: 15px;
-    margin: auto;
-}
-
-.ctx-left::after {
-    content: '';
-    width: 5px;
-    height: 100%;
-    position: absolute;
-    right: 0px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 10%, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0) 80%);
-}
-
-.skills-context {
-    list-style: none;
-    li {
-        color: white;
-        text-align: center;
-        font-size: 30px;
-    }
-}
-
-
-.exp-holder {
-    color: white;
-}
-
-.employment-history-holder {
-}
-
-.exp-title-holder {
-}
-.exp-title {
-    text-decoration: underline;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    margin: 10px auto;
-}
-
-
-.exp-tabs-holder {
-    overflow: visible;
-}
-
-.exp-tabs {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-}
-
-.exp-tab {
-    cursor: pointer;
-    position: relative;
-    color: white;
-    width: 25%;
-    float: left;
-    overflow: visible;
-}
-
-.tab-p {
-    text-align: center;
-    margin: 0px;
-    font-weight: 700;
-    font-size: 17px;
-}
-.exp-tab-display {
-}
-
-.exp-tab-content {
-    text-align: center;
-}
-
-.employ-status {
-    font-size: 25px;
-    font-weight: 900;
-    text-align: center;
-    margin: 15px;
-}
-.employ-title {
-    font-weight: 500;
-    font-size: 21px;
-    margin: auto;
-}
-
-.employ-bold {
-    font-size: 18px;
-    margin: auto;
-}
-
-.employ-description {
-    font-size: 16px;
-}
-
-.exp-hr {
-    border-top: 1px solid rgba(255,255,255,.85);
 }
 
 .edu-title-holder {

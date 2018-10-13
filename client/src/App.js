@@ -17,8 +17,6 @@ class App extends Component {
 
     };
   };
-
-  
   /**
    * @return {*} Container
    */

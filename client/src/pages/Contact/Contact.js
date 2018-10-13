@@ -38,7 +38,7 @@ class Contact extends Component {
                     cardTitle: 'Google Mail',
                     cardSVG: <Gmailsvg/>,
                     cardText: 'Email Me ',
-                    cardTextB: 'tranmike196@gmail.com',
+                    cardTextB: 'mikettran196@gmail.com',
                     cardLink: 'https://www.google.com/gmail/',
                     cardLinkText: 'Link To Gmail',
                     cardNum: 2,
@@ -99,7 +99,7 @@ class Contact extends Component {
                 });
             break;
             case 'Google Mail':
-                description = 'Email me at tranmike196@gmail.com about anything!';
+                description = 'Email me at mikettran196@gmail.com about anything!';
                 newLinks.push({
                     link: 'https://www.google.com/gmail/',
                     text: 'Go to your gmail now!',
@@ -163,7 +163,7 @@ class Contact extends Component {
                                         </div>
                                         <div className={`row contact-intructions-holder`}>
                                             <div className={`col-md-12 d-flex justify-content-center contact-intructions`}>
-                                               Scroll to the card to view more information
+                                               Click arrows to view other ways to connect or contact me
                                             </div>
                                         </div>
                                     </div>

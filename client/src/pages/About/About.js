@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Transition from 'react-transition-group/Transition';
-import {Exp, Skills, WordWall, Personal, Intro} from './AboutTabs';
+import {Exp, Skills, WordWall, Personal, Intro, Education} from './AboutTabs';
 /**
  * @return {*} Container
  */
@@ -49,6 +49,9 @@ class About extends Component {
             case 'wall':
                 newDisplay = <WordWall/>;
             break;
+            case 'edu':
+                newDisplay = <Education/>;
+            break;
             default:
         };
 
@@ -77,7 +80,7 @@ class About extends Component {
                                                 About Me
                                             </div>
                                         </div>
-                                        <hr className={`hr-white-blur`}/>
+                                        <hr className={`hr-white-blur about-hr`}/>
                                         <div className={`row no-mar about-page-tabs-body`}>
                                             <div className={`col-md-12 tabs-body-holder`}>
                                                 <div className={`row no-mar tab-holder`}>
@@ -89,16 +92,20 @@ class About extends Component {
                                                     <div className={`hover-animations h-ani-1`}></div>
                                                 </div>
                                                 <div className={`row no-mar tab-holder`}>
-                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('exp')}>Education / Employment</div>
+                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('exp')}>Employment</div>
                                                     <div className={`hover-animations h-ani-2`}></div>
                                                 </div>
                                                 <div className={`row no-mar tab-holder`}>
-                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('personal')}>Personal</div>
+                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('edu')}>Education</div>
                                                     <div className={`hover-animations h-ani-3`}></div>
                                                 </div>
                                                 <div className={`row no-mar tab-holder`}>
-                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('wall')}>Me</div>
+                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('personal')}>Personal</div>
                                                     <div className={`hover-animations h-ani-4`}></div>
+                                                </div>
+                                                <div className={`row no-mar tab-holder`}>
+                                                    <div className={`col-md-12 d-flex justify-content-center about-tab`} onClick={() => this.togglePage('wall')}>Me</div>
+                                                    <div className={`hover-animations h-ani-5`}></div>
                                                 </div>
                                             </div>
                                         </div>

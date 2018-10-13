@@ -7274,6 +7274,8 @@ body {
   border: 0;
   height: 4px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); }
+  .hr-white-blur.about-hr {
+    margin-top: 0rem; }
 
 .hr-center {
   border: 0;
@@ -7324,15 +7326,15 @@ body {
 
 .tab-holder {
   margin: auto;
-  height: 20%;
-  max-height: 20%; }
+  height: 16.6666666%;
+  max-height: 16.6666666%; }
 
 .tabs-body-holder {
   height: 100%; }
 
 .hover-animations {
   position: absolute;
-  top: 10%;
+  top: 8.33333333%;
   left: 50%;
   width: 0%;
   height: 0%;
@@ -7343,16 +7345,19 @@ body {
   z-index: 1; }
 
 .h-ani-1 {
-  top: 30%; }
+  top: 24.9999999%; }
 
 .h-ani-2 {
-  top: 50%; }
+  top: 41.6666666%; }
 
 .h-ani-3 {
-  top: 70%; }
+  top: 58.3333333%; }
 
 .h-ani-4 {
-  top: 90%; }
+  top: 74.9999999%; }
+
+.h-ani-5 {
+  top: 91.6666666%; }
 
 .tab-holder::after {
   content: '';
@@ -7367,16 +7372,18 @@ body {
 .tab-holder:hover .hover-animations {
   left: 0%;
   top: 0%;
-  height: 20%;
+  height: 16.6666666%;
   width: 92%; }
   .tab-holder:hover .hover-animations.h-ani-1 {
-    top: 20%; }
+    top: 16.6666666%; }
   .tab-holder:hover .hover-animations.h-ani-2 {
-    top: 40%; }
+    top: 33.3333333%; }
   .tab-holder:hover .hover-animations.h-ani-3 {
-    top: 60%; }
+    top: 49.9999999%; }
   .tab-holder:hover .hover-animations.h-ani-4 {
-    top: 80%; }
+    top: 66.6666666%; }
+  .tab-holder:hover .hover-animations.h-ani-5 {
+    top: 83.6666666%; }
 
 .about-display {
   height: 100%;
@@ -7410,6 +7417,40 @@ body {
   margin-left: -.6rem;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 10%, rgba(255, 255, 255, 0.75) 20%, rgba(255, 255, 255, 0) 80%); }
 
+.about-display-content {
+  margin: auto; }
+
+.edu-title-holder {
+  text-align: center; }
+
+.edu-row {
+  text-align: center; }
+
+.school {
+  font-weight: 600;
+  font-size: 21px; }
+
+.school-grad {
+  font-size: 18px;
+  font-weight: 600; }
+
+.school-ud {
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto; }
+
+.edu-splitter::after {
+  content: '';
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 35%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 255, 255, 0) 100%); }
+
+.education-history-holder {
+  margin: 15px auto 40px; }
+
 .my-picture {
   padding: 0px 0px 0px 0px;
   border-radius: 50%;
@@ -7440,9 +7481,6 @@ body {
   margin: 0px;
   width: 100%; }
 
-.about-display-content {
-  margin: auto; }
-
 .sum-title-holder {
   margin: 0px; }
 
@@ -7466,7 +7504,8 @@ body {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0.75) 75%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0) 100%); }
 
 .skills-body {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .skills-title-holder {
   margin: 15px; }
@@ -7514,8 +7553,8 @@ body {
 .exp-title {
   text-decoration: underline;
   text-align: center;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 900;
   margin: 10px auto; }
 
 .exp-tabs-holder {
@@ -7539,20 +7578,29 @@ body {
   text-align: center;
   margin: 0px;
   font-weight: 700;
-  font-size: 17px; }
+  font-size: 25px; }
 
 .exp-tab-content {
   text-align: center; }
 
-.employ-status {
-  font-size: 25px;
+.employ-status-title {
+  font-size: 40px;
   font-weight: 900;
   text-align: center;
   margin: 15px; }
 
+.employ-status {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px; }
+  .employ-status p {
+    font-size: 30px;
+    font-weight: 700; }
+
 .employ-title {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 25px;
   margin: auto; }
 
 .employ-bold {
@@ -7564,37 +7612,6 @@ body {
 
 .exp-hr {
   border-top: 1px solid rgba(255, 255, 255, 0.85); }
-
-.edu-title-holder {
-  text-align: center; }
-
-.edu-row {
-  text-align: center; }
-
-.school {
-  font-weight: 600;
-  font-size: 21px; }
-
-.school-grad {
-  font-size: 18px;
-  font-weight: 600; }
-
-.school-ud {
-  font-size: 16px;
-  font-weight: 400;
-  margin: auto; }
-
-.edu-splitter::after {
-  content: '';
-  width: 2px;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 35%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 255, 255, 0) 100%); }
-
-.education-history-holder {
-  margin: 15px auto 40px; }
 
 .exp-hover-ani {
   position: absolute;

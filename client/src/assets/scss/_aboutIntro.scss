@@ -1,0 +1,64 @@
+.my-picture {
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+
+.about-intro-bold {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    text-align: right;
+    color: rgba(234, 236, 249, 0.9);
+    font-size: 35px;
+    white-space: nowrap;
+    margin: 20px;
+}
+
+.about-intro-stuff {
+    margin-left: 15px;
+    font-weight: 900;
+    color: rgba(255,255,255,1);
+}
+.intro-mains {
+    margin: auto;
+}
+
+.intro-basic {
+    margin: 0px;
+    width: 100%;
+}
+
+.intro-sum {
+
+}
+
+.sum-title-holder {
+    margin: 0px;
+}
+
+.sum-title {
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.sum-text-holder {
+    margin: 0px;
+}
+
+.sum-text {
+    margin: auto;
+    color: white;
+    font-size: 21px;
+    text-indent: 5%;
+    text-align: end;
+}
+
+.sum-display-hr {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0.75) 75%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0) 100%);
+}
